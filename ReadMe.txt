@@ -16,7 +16,7 @@ Furthermore, for NY and NJ, include only the sales that occurred between 2000 an
 To compile the program - 
 
 
-1. The assignment zip file consists of 4 .java files - Metric.java , Query1.java, Query2.java, SimpleQuery.java
+1. This file consists of 4 .java files - Metric.java , Query1.java, Query2.java, SimpleQuery.java
 
 2. SimpleQuery.java contains main() method hence use this to execute the program. This runs on Eclipse.
 
@@ -40,7 +40,7 @@ Choice of Data Structure - Hashmaps
 
 
 1. Hashmap is the data structure used. The reason is hashmap works with (key,value) pairs. 
-   For this assignment, we need maximum sales quantity,minimum sales quantity and average sales quantity for each unique customer-product combination hence its easier to retrieve and search through hashmaps.
+   We need maximum sales quantity,minimum sales quantity and average sales quantity for each unique customer-product combination hence its easier to retrieve and search through hashmaps.
 
 2. Hashmap <Key,Value> for Query 1
    They key is (customer-product) and value is (maxMetric(quantity,date,state) , minMetric(quantity,date,state), avg(sum/count))
