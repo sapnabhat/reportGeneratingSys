@@ -1,12 +1,14 @@
 
-* Simple Database Application Program #1" -Generating 2 separate reports based on the following queries (one report for query #1 and another for query #2):
+* Simple Database Application 
+Program #1" -Generating 2 separate reports based on the following queries (one report for query #1 and another for query #2):
 
 1. For each combination of customer and product, compute the maximum and minimum sales quantities along with the corresponding dates (i.e., dates of those maximum and  minimum sales quantities) and the state in which the sale transaction took place. 
 If there are >1 occurrences of the max or min, choose only one. 
 For the same combination of product and customer, compute the average sales quantity. 
  
 2. For each combination of customer and product, output the maximum sales quantities for NY and NJ and minimum sales quantities for CT in 3 separate columns. Like the first report, display the corresponding dates (i.e., dates of those maximum and minimum sales quantities). 
-Furthermore, for NY and NJ, include only the sales that occurred between 2000 and 2005; for CT, include all sales.(The output is generated with a single scan of the ‘sales’ table).
+Furthermore, for NY and NJ, include only the sales that occurred between 2000 and 2005; for CT, include all sales.
+(The output is generated with a single scan of the ‘sales’ table).
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -14,9 +16,9 @@ Furthermore, for NY and NJ, include only the sales that occurred between 2000 an
 To compile the program - 
 
 
-1. The assignment zip file consists of 4 .java files - Metric.java , Query1.java, Query2.java, Assign1.java
+1. The assignment zip file consists of 4 .java files - Metric.java , Query1.java, Query2.java, SimpleQuery.java
 
-2. Assign1.java contains main() method hence use this to execute the program. This runs on Eclipse.
+2. SimpleQuery.java contains main() method hence use this to execute the program. This runs on Eclipse.
 
 3. I have used the USR(postgres) PWD(Sapna123) of my database server in main(). Please use appropriate USR PWD to run on your machine.
  
@@ -27,7 +29,7 @@ To compile the program -
 
 4. Query2.java consists of private variables to compute values for each customer-product combination - maximum sales quantity for state NY(during year 2000 to 2005),maximum sales quantity for state NJ(during year 2000 to 2005), minimum sales quantity for state CT.
  
-5. Assign1.java has the main() method, data structure Hashmap to compute the above values and store the results.
+5. SimpleQuery.java has the main() method, data structure Hashmap to compute the above values and store the results.
 
 
 
